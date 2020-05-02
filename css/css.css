@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.inicio{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h1 {
+    font-size: 5rem;
+    background-color: rgb(139, 139, 139);
+    margin: 0 0 2rem 0;
+    text-transform: uppercase;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+a {
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgb(92, 202, 58);
+    border-radius: .7rem;
+    font-size: 2rem;
+    color: white;
+}
